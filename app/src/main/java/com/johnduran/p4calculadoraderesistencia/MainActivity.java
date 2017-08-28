@@ -307,21 +307,21 @@ public class MainActivity extends AppCompatActivity {
 
         if (resistencia<1000){
             String res= String.valueOf(resistencia);
-            tResistencia.setText(res+"  Ohms");
-            tTolerancia.setText("+-"+valorB4+" %");
+            tResistencia.setText(res+"  Ω");
+            tTolerancia.setText("±"+valorB4+" %");
         }else{
             if (resistencia<1000000){
                 resistencia=resistencia/1000;
                 String res= String.valueOf(resistencia);
-                tResistencia.setText(res+"  K Ohms");
-                tTolerancia.setText("+-"+valorB4+" %");
+                tResistencia.setText(res+"  K Ω");
+                tTolerancia.setText("±"+valorB4+" %");
             }else{
                 if (resistencia>=1000000){
                     resistencia=resistencia/1000000;
                     String res= String.valueOf(resistencia);
-                    tResistencia.setText(res+"  M Ohms");
+                    tResistencia.setText(res+"  M Ω");
                     Character.toString((char)241);
-                    tTolerancia.setText("(-+)"+valorB4+" %");
+                    tTolerancia.setText("±"+valorB4+" %");
                 }
 
             }
