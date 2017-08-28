@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P4CalculadoraDeResistencia</string>
+    <string name="encabezado">Calculadora de Resistencias</string>
+    <string name="instrucciones">Presione las bandas en la resistencia y elija el color. Las tres primeras, de izquierda a derecha, se refieren al valor de la resistencia, la última banda se refiere a la tolerancia.</string>
+    <string name="calcular">Calcular</string>
+    <string name="resistencia">Resistencia</string>
+    <string name="resistenciadefecto">1.5  K Ohms</string>
+    <string name="toleranciadefecto">(-+5) %</string>
+    <string name="tolerancia">Tolerancia</string>
+</resources>
